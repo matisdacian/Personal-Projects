@@ -1,0 +1,324 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    margin: 0;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.header {
+    grid-column: 1/5;
+    grid-row: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-image: url(images/1.jpg);
+}
+
+.divone {
+    grid-column: 1/5;
+    grid-row: 2;
+    background-image: url(images/1.jpg);
+    height: 500px;
+    background-size: 100% 850px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.divtwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+    grid-column: 1/3;
+    grid-row: 3;
+}
+
+.divthree {
+    grid-column: 3/5;
+    grid-row: 3;
+    background-image: url(images/2.jpg);
+    height: 500px;
+    background-size: 100% 850px;
+    background-repeat: no-repeat;
+}
+
+.divfour {
+    grid-column: 1/3;
+    grid-row: 4;
+    background-image: url(images/3.jpg);
+    height: 500px;
+    background-size: 100% 850px;
+    background-repeat: no-repeat;
+}
+
+.divfive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+    grid-column: 3/5;
+    grid-row: 4;
+}
+
+.divsix {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    flex-wrap: wrap;
+    grid-column: 1/3;
+    grid-row: 5;
+    background-image: url(images/4.jpg);
+    height: 500px;
+    background-size: 100% 850px;
+    background-repeat: no-repeat;
+}
+
+.divseven {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    flex-wrap: wrap;
+    grid-column: 3/5;
+    grid-row: 5;
+    background-image: url(images/5.jpg);
+    height: 500px;
+    background-size: 100% 850px;
+    background-repeat: no-repeat;
+}
+
+.diveight {
+    grid-column: 1/5;
+    grid-row: 6;
+    height: 500px;
+}
+
+.divnine {
+    grid-column: 1/2;
+    grid-row: 7;
+    background-image: url(images/6.jpg);
+    height: 400px;
+    background-size: 100% 850px;
+    background-repeat: no-repeat;
+}
+
+.divten {
+    grid-column: 2/3;
+    grid-row: 7;
+    background-image: url(images/7.jpg);
+    height: 400px;
+    background-size: 100% 850px;
+    background-repeat: no-repeat;
+}
+
+.diveleven {
+    grid-column: 3/4;
+    grid-row: 7;
+    background-image: url(images/8.jpg);
+    height: 400px;
+    background-size: 100% 850px;
+    background-repeat: no-repeat;
+}
+
+.divtwelve {
+    grid-column: 4/5;
+    grid-row: 7;
+    background-image: url(images/9.jpg);
+    height: 400px;
+    background-size: 100% 850px;
+    background-repeat: no-repeat;
+}
+
+footer {
+    grid-column: 1/5;
+    grid-row: 8;
+    background-color: cadetblue;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.header nav a:hover {
+    background-color: darkgrey;
+}
+
+
+#contactbutton {
+    background-color: white;
+    color: black;
+    border-radius: 25px / 17px;
+    left: -20px;
+    width: 200px;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.logo {
+    color: white;
+}
+
+.wearecreatives {
+    color: white;
+    font-size: 50px;
+}
+
+.divindivtwo, .divindivfive {
+    width: 310px;
+}
+
+.divindivtwo h1 {
+    font-size: 32,5px;
+}
+
+.divindivtwo p {
+    font-size: 13px;
+}
+
+.divindivfive h1 {
+    font-size: 32,2px;
+}
+
+.divindivfive p {
+    font-size: 13.5px;
+}
+
+.grey-p {
+    color: grey;
+}
+
+.divindivsix {
+    width: 310px;
+    padding-bottom: 30px;
+    color: darkblue;
+}
+
+.divindivseven {
+    width: 310px;
+    padding-bottom: 30px;
+    color: blue;
+}
+
+.clienttestimonials {
+    text-align: center;
+    margin-top: 50px;
+    color: grey;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.emily {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.emilyimage {
+    border-radius: 50%;
+    max-width: 60px;
+}
+
+.thomas {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.thomasimage {
+    border-radius: 50%;
+    max-width: 60px;
+}
+
+.jennie {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.jennieimage {
+    border-radius: 50%;
+    max-width: 60px;
+}
+
+.job {
+    position: absolute;
+    margin-top: 190px;
+    color: grey;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, rgb(72, 16, 150), rgb(103, 172, 199));
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;  
+}
+
+footer h1 {
+    font-size:50px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+footer textarea {
+    resize: none;
+    width: 344px;;
+    height: 70px;
+}
+
+footer .submit {
+    background-color: rgb(0, 128, 197);
+    width:350px;
+    height: 30px;
+    color: white;
+    border: 1px;
+    margin-top: 10px;
+}
+
+footer input {
+    width:346px;
+    height: 30px;
+    border: 1px;
+}
+
+footer form {
+    width: 350px;
+    margin:auto
+}
+
+footer form p {
+   text-align: left;
+   margin-bottom: 2px;
+   font-size:12px;
+}
+
+footer #question {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer h1, #question {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

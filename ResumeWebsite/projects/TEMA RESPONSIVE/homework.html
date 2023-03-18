@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="global.css">
+        <link rel="stylesheet" type="text/css" href="color.css">
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .container {
+                display: flex;
+                width: 50%;
+            }
+            
+            .left-container {
+                flex: 1 1 0;
+                color: white;
+                padding: 30px 60px 30px 20px;
+            }
+
+            .left-container .sub-heading {
+                margin-top: 15px;
+                margin-bottom: 60px;
+            }
+
+            .left-container .statistics-data {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .left-container .statistics-data .margin-bottom-sm {    
+                margin-bottom: 4px;
+            }
+
+            .right-container {
+                flex: 1 1 auto;
+                padding: 30px 60px 30px 20px;
+                background-image: url(images/office.jpg);
+                background-size: cover;
+            }
+
+            .right-container img {
+                width: 100%;
+            }
+
+            @media only screen and (max-width: 640px) {
+            .container {
+                display: flex;
+                flex-direction: column-reverse;
+            }    
+
+            .right-container {
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-blend-mode: overlay;
+                padding: 30%;
+                flex: 1 1 auto;
+            }
+
+            .left-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                text-align: center;
+                padding: 10% 5% 5% 5%;
+                font-size: 100%;
+                flex: 1 1 0;
+                color: white;
+            }
+
+            .left-container .statistics-data {
+                display: flex;
+                flex-direction: column;
+            }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="left-container">
+                <h2>Get <span class="secondary-color">insights</span> that help your business grow</h2>
+                <p class="sub-heading">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita id tempore quisquam architecto minus, quos voluptatum vel quasi? Et, dignissimos.</p>
+                <div class="statistics-data">
+                    <div>
+                        <h3 class="margin-bottom-sm">10k +</h3>
+                        <p>COMPANIES</p>
+                    </div>
+                    <div>
+                        <h3 class="margin-bottom-sm">314</h3>
+                        <p>TEMPLATES</p>
+                    </div>
+                    <div>
+                        <h3 class="margin-bottom-sm">12M +</h3>
+                        <p>QUERIES</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-container">
+                <div class="layer"></div>
+            </div>
+        </div>
+    </body>
+</html>
